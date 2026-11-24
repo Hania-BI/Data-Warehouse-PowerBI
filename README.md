@@ -34,8 +34,8 @@ An end-to-end **Business Intelligence** project: a SQL Server data warehouse bui
 **Facts:** `fact_store_sales` (line-item sales with a persisted `total_sales_amount` column) and `fact_inventory` (stock snapshots)
 
 <p align="center">
-  <img src="images/schema_fact_store_sales.png" width="48%" alt="Sales star schema"/>
-  <img src="images/schema_fact_inventory.png" width="48%" alt="Inventory star schema"/>
+  <img src="schema_fact_store_sales.png" width="48%" alt="Sales star schema"/>
+  <img src="schema_fact_inventory.png" width="48%" alt="Inventory star schema"/>
 </p>
 
 ---
@@ -45,20 +45,21 @@ An end-to-end **Business Intelligence** project: a SQL Server data warehouse bui
 ### 1. Store Sales vs Inventory Performance
 *For store managers and executives:* monthly KPIs, an inventory-coverage gauge (153 vs 305-day target), average daily sales by city on a map, and top customers by loyalty tier.
 
-![Store Sales vs Inventory Performance](images/dashboard_store_sales_inventory.png)
+![Store Sales vs Inventory Performance](dashboard_store_sales_inventory.png)
 
 ### 2. Sales Performance
 *For sales analysts and executives:* **$2.88M total sales**, 15K orders, top 5 stores, monthly sales vs orders trend, sales by department, and time-intelligence slicers.
 
-![Sales Performance Dashboard](images/dashboard_sales_performance.png)
+![Sales Performance Dashboard](dashboard_sales_performance.png)
 
 ### 3. Inventory Performance & Stock Optimization
 *For supply chain planners:* 600 products, 600K units in stock, monthly inventory trend, inventory by department, and a store-by-department breakdown for the top 5 stores.
 
-![Inventory Performance Dashboard](images/dashboard_inventory_optimization.png)
+![Inventory Performance Dashboard](dashboard_inventory_optimization.png)
 
 ---
 
+---
 
 ## 👥 Team
 
